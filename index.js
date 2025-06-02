@@ -3,7 +3,7 @@ function randomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-let reset = document.getElementById('reset');
+let reset = document.getElementById('reset')
 
 reset.addEventListener('click', generateNewArray)
 
